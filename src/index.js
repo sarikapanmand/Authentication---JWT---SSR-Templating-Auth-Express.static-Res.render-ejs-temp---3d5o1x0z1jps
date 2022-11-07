@@ -11,4 +11,3 @@ mongoose.connect(process.env.DATABASE_URL,{ useNewUrlParser: true, useUnifiedTop
 
 
 app.listen(3000, () => console.log('Server running......'));
-
